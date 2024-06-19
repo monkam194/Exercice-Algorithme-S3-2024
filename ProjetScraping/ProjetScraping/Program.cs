@@ -25,14 +25,14 @@ public class WebCrawler
         visitedUrls.Add(filePath);
         string content;
 
-        // Obtenir le chemin absolu à partir du chemin relatif
+
         string absolutePath = Path.GetFullPath(filePath);
         content = await File.ReadAllTextAsync(absolutePath);
 
         var doc = new HtmlDocument();
         doc.LoadHtml(content);
 
-        // Extraction des emails
+
         var emailNodes = doc.DocumentNode.SelectNodes("//a[starts-with(@href, 'mailto:')]");
         if (emailNodes != null)
         {
@@ -44,7 +44,6 @@ public class WebCrawler
             }
         }
 
-        // Extraction des liens
         var linkNodes = doc.DocumentNode.SelectNodes("//a[@href]");
         if (linkNodes != null)
         {

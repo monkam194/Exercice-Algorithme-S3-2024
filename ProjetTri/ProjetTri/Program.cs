@@ -11,13 +11,12 @@ class Program
         Console.WriteLine("Current Directory: " + Directory.GetCurrentDirectory());
 
         string[] filePaths = {
-            "../../../../data/0e303ef7354aab60637e09a5fae96fa8.txt",
-            "../../../../data/08b49b5f34fdc2c28191b45749c365a8.txt",
-            "../../../../data/9264a7c4e7251fc75910c4155e5c489a.txt",
-            "../../../../data/e001e8d4317c1db1d6a0f3d3f6d03d25.txt"
+            "../../../../data/fichier1.txt",
+            "../../../../data/fichier2.txt",
+            "../../../../data/fichier3.txt",
+            "../../../../data/fichier4.txt"
         };
 
-        // Vérifiez que les fichiers existent
         foreach (var filePath in filePaths)
         {
             if (File.Exists(filePath))
@@ -73,29 +72,28 @@ class Program
         return results;
     }
 
-    static void WriteCsv(List<(string FileName, string Algorithm, double Duration)> results, string outputFile = "benchmark_results.csv")
+    static void WriteCsv(List<(string FileName, string Algorithm, double Duration)> results, string outputFile = "../../../../fichier csv/benchmark_results.csv")
     {
         var algorithmNames = results.Select(r => r.Algorithm).Distinct().ToList();
         var fileNames = results.Select(r => r.FileName).Distinct().ToList();
 
         using (var writer = new StreamWriter(outputFile))
         {
-            // Écrire l'en-tête
             writer.Write("Nom des fichiers");
             foreach (var algo in algorithmNames)
             {
-                writer.Write($",{algo}");
+                writer.Write($", {algo}");
             }
             writer.WriteLine();
 
-            // Écrire les durées
+
             foreach (var file in fileNames)
             {
                 writer.Write(file);
                 foreach (var algo in algorithmNames)
                 {
                     var result = results.FirstOrDefault(r => r.FileName == file && r.Algorithm == algo);
-                    writer.Write(result != default ? $",{result.Duration}" : ",");
+                    writer.Write(result != default ? $", {result.Duration}" : ",");
                 }
                 writer.WriteLine();
             }

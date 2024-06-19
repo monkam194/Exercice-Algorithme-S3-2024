@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Famille MOMKAM\\source\\repos\\2023\\ProjetScraping\\",
+  "WorkspaceRootPath": "C:\\Users\\Famille MOMKAM\\Desktop\\Exercice Algorithme\\ProjetScraping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3934A61-71A5-4F93-AEF6-9FF58ADDC1E9}|ProjetScraping\\ProjetScraping.csproj|c:\\users\\famille momkam\\source\\repos\\2023\\projetscraping\\projetscraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3934A61-71A5-4F93-AEF6-9FF58ADDC1E9}|ProjetScraping\\ProjetScraping.csproj|c:\\users\\famille momkam\\desktop\\exercice algorithme\\projetscraping\\projetscraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3934A61-71A5-4F93-AEF6-9FF58ADDC1E9}|ProjetScraping\\ProjetScraping.csproj|solutionrelative:projetscraping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Famille MOMKAM\\source\\repos\\2023\\ProjetScraping\\ProjetScraping\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Famille MOMKAM\\Desktop\\Exercice Algorithme\\ProjetScraping\\ProjetScraping\\Program.cs",
               "RelativeDocumentMoniker": "ProjetScraping\\Program.cs",
-              "ToolTip": "C:\\Users\\Famille MOMKAM\\source\\repos\\2023\\ProjetScraping\\ProjetScraping\\Program.cs",
+              "ToolTip": "C:\\Users\\Famille MOMKAM\\Desktop\\Exercice Algorithme\\ProjetScraping\\ProjetScraping\\Program.cs",
               "RelativeToolTip": "ProjetScraping\\Program.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAUwEsAAABgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T04:31:31.462Z",
               "EditorCaption": ""
