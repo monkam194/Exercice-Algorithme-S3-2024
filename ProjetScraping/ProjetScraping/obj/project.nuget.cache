@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "R2JkArY6lbpgsCX48XIvLV+oUMWpWHF0Vpyj7rOfxc14BYsr/LXbV8MbCYwFKdIA+nAIH8NhTWnXZWGAYfeYfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Famille MOMKAM\\source\\repos\\2023\\ProjetScraping\\ProjetScraping\\ProjetScraping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Famille MOMKAM\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512"
+  ],
+  "logs": []
+}
